@@ -15,6 +15,7 @@ module.exports = {
     },
     fontSize: {
       body: "18px",
+      hXL: "72px",
     },
     extend: {},
   },

@@ -5,5 +5,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
 
 .request-btn {
-  @apply bg-pale border-solid border-2 border-dark-blue text-dark-blue rounded pt-3 pb-2 px-5 font-epilogue font-bold text-body hover:bg-dark-blue hover:text-pale;
+  @apply border-solid rounded pt-4 pb-3 px-6 font-epilogue font-bold text-body;
+}
+
+.body-text {
+  @apply font-epilogue text-body leading-[32px] tracking-[0px] text-dark-blue;
+}
+
+.stat-value {
+  @apply font-epilogue text-[48px] leading-[56px] tracking-[-0.5px] font-bold;
+}
+
+.stat-label {
+  @apply font-epilogue text-[16px] leading-[26px] tracking-[2.5px];
 }
