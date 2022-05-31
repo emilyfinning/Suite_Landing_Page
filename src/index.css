@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+
+.request-btn {
+  @apply bg-pale border-solid border-2 border-dark-blue text-dark-blue rounded pt-3 pb-2 px-5 font-epilogue font-bold text-body hover:bg-dark-blue hover:text-pale;
+}

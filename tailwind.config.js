@@ -10,6 +10,12 @@ module.exports = {
       pink: "#CB30E3",
       orange: "#FFA84E",
     },
+    fontFamily: {
+      epilogue: ["Epilogue"],
+    },
+    fontSize: {
+      body: "18px",
+    },
     extend: {},
   },
   plugins: [],
