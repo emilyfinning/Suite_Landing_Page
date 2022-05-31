@@ -9,6 +9,7 @@ module.exports = {
       purple: "#A060FF",
       pink: "#CB30E3",
       orange: "#FFA84E",
+      white: "#ffffff",
     },
     fontFamily: {
       epilogue: ["Epilogue"],

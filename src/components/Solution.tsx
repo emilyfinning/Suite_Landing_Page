@@ -15,7 +15,7 @@ const Solution = () => {
             A <b>super solution</b> for your <b>business.</b>
           </h1>
         </div>
-        <p className="body-text w-[350px] py-10">
+        <p className="body-text w-[350px] py-10 text-dark-blue">
           Our marketing and sales automations help you scale your outreach to
           get more leads for your company.
         </p>
