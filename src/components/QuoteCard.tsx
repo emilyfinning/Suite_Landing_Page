@@ -3,7 +3,7 @@ import line from "../assets/pattern-curved-line-2.svg";
 
 const QuoteCard = () => {
   return (
-    <div className="bg-dark-blue rounded-2xl my-56 flex h-[540px]">
+    <div className="bg-dark-blue rounded-2xl mt-56 flex h-[540px] z-10 relative">
       <img
         src={require("../assets/image-jeremy-large.png")}
         alt="Jeremy"
