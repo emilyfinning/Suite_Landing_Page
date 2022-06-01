@@ -8,13 +8,13 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <div className="bg-pale px-[20%] py-10 h-[1300px]">
+      <div className="bg-pale px-[20%] py-10 desktop:h-[1300px] tablet:h-[1700px]">
         <Header />
         <Solution />
         <QuoteCard />
         <Footer />
       </div>
-      <div className="bg-beige h-[550px] w-full z-0" />
+      <div className="bg-beige desktop:h-[550px] tablet:h-[900px] w-full z-0" />
     </div>
   );
 }

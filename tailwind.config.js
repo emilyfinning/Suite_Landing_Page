@@ -19,6 +19,10 @@ module.exports = {
       hXL: "72px",
     },
     extend: {},
+    screens: {
+      desktop: { min: "1651px", max: "3000px" },
+      tablet: { min: "800px", max: "1650px" },
+    },
   },
   plugins: [],
 };
