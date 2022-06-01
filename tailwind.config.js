@@ -20,8 +20,9 @@ module.exports = {
     },
     extend: {},
     screens: {
-      desktop: { min: "1651px", max: "3000px" },
-      tablet: { min: "800px", max: "1650px" },
+      desktop: { min: "1400px", max: "8000px" },
+      tablet: { min: "800px", max: "1399px" },
+      phone: { min: "0px", max: "799px" },
     },
   },
   plugins: [],
